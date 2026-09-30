@@ -44,5 +44,5 @@ jobs:
           config: .github/licenserc.yml
         env:
           # the action pins its own Go (1.25) and setup-go exports
-          # GOTOOLCHAIN=local, which cannot inspect a go.mod requiring 1.26
+          # GOTOOLCHAIN=local, which cannot inspect a go.mod requiring 1.27
           GOTOOLCHAIN: auto
